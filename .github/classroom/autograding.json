@@ -45,7 +45,7 @@
       "setup": "make main",
       "run": "./main",
       "input": "1\r\n1\r\n1",
-      "output": "Deret Fibonacci dari baris 1 sampai 1 adalah 1\r\nBanyaknya bilangan genap pada deret Fibonacci dari 1 sampai 1 adalah 0",
+      "output": "Deret Fibonacci dari baris 1 sampai 1 adalah 1 \r\nBanyaknya bilangan genap pada deret Fibonacci dari 1 sampai 1 adalah 0",
       "comparison": "included",
       "timeout": 10,
       "points": 10
