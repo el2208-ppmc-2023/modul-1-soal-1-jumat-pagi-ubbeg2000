@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make main",
+      "run": "./main",
+      "input": "0",
+      "output": "Tidak ada deret",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "2",
+      "setup": "make main",
+      "run": "./main",
+      "input": "1\r\n2",
+      "output": "Tidak bisa! karena awal interval melewati panjang deret",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "3",
+      "setup": "make main",
+      "run": "./main",
+      "input": "1\r\n1\r\n2",
+      "output": "Tidak bisa! karena akhir interval melewati panjang deret",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "4",
+      "setup": "make main",
+      "run": "./main",
+      "input": "2\r\n2\r\n1",
+      "output": "Tidak bisa! karena awal interval lebih besar dari akhir interval",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "5",
+      "setup": "make main",
+      "run": "./main",
+      "input": "1\r\n1\r\n1",
+      "output": "Deret Fibonacci dari baris 1 sampai 1 adalah 1\r\nBanyaknya bilangan genap pada deret Fibonacci dari 1 sampai 1 adalah 0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "6",
+      "setup": "make main",
+      "run": "./main",
+      "input": "10\r\n5\r\n8",
+      "output": "Deret Fibonacci dari baris 5 sampai 8 adalah 5 8 13 21\r\nBanyaknya bilangan genap pada deret Fibonacci dari 5 sampai 8 adalah 1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "7",
+      "setup": "make main",
+      "run": "./main",
+      "input": "15\r\n1\r\n15",
+      "output": "Deret Fibonacci dari baris 1 sampai 15 adalah 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610\r\nBanyaknya bilangan genap pada deret Fibonacci dari 1 sampai 15 adalah 5",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "8",
+      "setup": "make main",
+      "run": "./main",
+      "input": "10\r\n10\r\n10",
+      "output": "Deret Fibonacci dari baris 10 sampai 10 adalah 55\r\nBanyaknya bilangan genap pada deret Fibonacci dari 10 sampai 10 adalah 0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "9",
+      "setup": "make main",
+      "run": "./main",
+      "input": "10\r\n3\r\n7",
+      "output": "Deret Fibonacci dari baris 3 sampai 7 adalah 2 3 5 8 13\r\nBanyaknya bilangan genap pada deret Fibonacci dari 3 sampai 7 adalah 2",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "make main",
+      "run": "./main",
+      "input": "20\r\n15\r\n18",
+      "output": "Deret Fibonacci dari baris 15 sampai 18 adalah 610 987 1597 2584\r\nBanyaknya bilangan genap pada deret Fibonacci dari 15 sampai 18 adalah 2",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
