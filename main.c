@@ -62,15 +62,15 @@ int main()
     if (awal==1)
     {
         if (akhir==1){
-            printf("Deret Fibonacci dari baris %d sampai %d adalah 1",awal,akhir);
+            printf("Deret Fibonacci dari baris %d sampai %d adalah 1 ",awal,akhir);
         }
         else{
-            printf("Deret Fibonacci dari baris %d sampai %d adalah 1 1",awal,akhir);
+            printf("Deret Fibonacci dari baris %d sampai %d adalah 1 1 ",awal,akhir);
         }
     }
     else if (awal==2)
     {
-        printf("Deret Fibonacci dari baris %d sampai %d adalah 1",awal,akhir);
+        printf("Deret Fibonacci dari baris %d sampai %d adalah 1 ",awal,akhir);
     }
     else if (awal>2)
     {
